@@ -1,0 +1,35 @@
+export default defineEventHandler(()=> {
+    return{
+        sections:[
+            {
+                category:'coffee',
+                items:[
+                    {
+                        id:'flat-white',
+                        name:'Flat white',
+                        sizes:[
+                            {label:'small',price:4.50},
+                            {label:'large',price:5.50}
+                        ]
+                    },
+                    {
+                        id:'espresso',
+                        name:'espresso',
+                        sizes:[
+                            {label:'small',price:4.00},
+                            {label:'large',price:5.00}
+                        ]
+                    },
+                ],
+            },
+            {
+                category:'pastries',
+                items:[
+                    {id:'almond-croissant',name:'Almond-Croissant',
+                        sizes:[{label:'one',price:4.00}]
+                    },
+                ]
+            },
+        ],
+    }
+})
